@@ -42,7 +42,7 @@ I'm excited about this next phase and look forward to contributing more to the o
 
 - through git (latest develop version)
   ```
-  $ git clone https://github.com/SauceCat/PDPbox.git
+  $ git clone https://github.com/mrbestnaija/PDPbox.git
   $ cd PDPbox
   $ python setup.py install
   ```
@@ -59,7 +59,9 @@ I'm excited about this next phase and look forward to contributing more to the o
 
 ```
 cd <dir>/PDPbox
-python -m pytest tests
+python -m pip install --upgrade pip
+python -m pip install PDPbox
+
 ```
 
 ### Test with `tox`
